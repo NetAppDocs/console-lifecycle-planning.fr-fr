@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-tier-data.html 
+keywords: economic efficiency remediate, economic efficiency, capacity planning, add capacity, lifecycle planning 
+summary: La planification du cycle de vie fournit des recommandations basées sur la croissance prévue des données.  Vous pouvez accepter les prévisions ou saisir vos propres prévisions.  Sur cette base, le service présente des recommandations qui satisfont à la croissance de capacité projetée et sont les plus optimales pour la configuration des actifs.  L’une des recommandations pourrait être de hiérarchiser les données froides vers le stockage cloud pour libérer de la capacité.  Cette recommandation initie la connexion à NetApp Cloud Tiering, un autre produit. 
+---
+= Hiérarchisez les données froides vers le stockage cloud et libérez le stockage identifié par la planification du cycle de vie
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+La planification du cycle de vie fournit des recommandations basées sur la croissance prévue des données.  Vous pouvez accepter les prévisions ou saisir vos propres prévisions.  Sur cette base, la planification du cycle de vie présente des recommandations qui satisfont à la croissance de capacité projetée et sont les plus optimales pour la configuration des actifs de stockage.  L’une des recommandations pourrait être de hiérarchiser les données froides vers le stockage cloud pour libérer de la capacité.  Cette recommandation initie la connexion à NetApp Cloud Tiering, un autre produit.
+
+À partir de là, vous pouvez hiérarchiser les données et revenir facilement à la planification du cycle de vie pour agir sur d’autres systèmes.
+
+Le processus de hiérarchisation du cloud comprend les processus suivants :
+
+* Déployer un agent de console
+* Découvrir le cluster
+* Configurer la hiérarchisation vers le cloud
+
+
+.Étapes
+. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. Sélectionnez *Évaluer les options de stockage* pour l'actif.
+. Sélectionnez *Tier Cold Data*.
+. Les étapes suivantes dépendent du fait que vous ayez déjà déployé l'agent de console et découvert le cluster :
++
+** Si vous devez déployer l'agent de console, reportez-vous à la documentation de la console NetApp qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Comment créer l'agent de console"^] .  Sinon, si vous avez déjà déployé l’agent de console, l’option de déploiement de l’agent n’apparaît pas.
+** Si le service doit découvrir le cluster, reportez-vous à https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez les clusters ONTAP sur site"^] .  Sinon, si le cluster a déjà été découvert, l’option permettant de découvrir le cluster n’apparaît pas.
++
+La planification du cycle de vie initie la connexion à NetApp Cloud Tiering, un autre produit.
+
++
+image:capacity-tier-cold-data.png["Page de capacité montrant l'option de hiérarchisation des données froides"]
+
+
+
+. Sélectionnez *Déployer l'agent*.
+. Choisissez un fournisseur de cloud et sélectionnez *Continuer*.
+. Sélectionnez *Continuer* ou *Passer au déploiement*.
++
+Après le déploiement de l'agent de console, NetApp Cloud Tiering découvre le cluster, s'il n'est pas déjà découvert.
+
+. Une fois le cluster découvert, configurez la hiérarchisation.
++
+Pour plus de détails sur la hiérarchisation, reportez-vous à https://docs.netapp.com/us-en/bluexp-tiering/index.html["Documentation sur la hiérarchisation du cloud NetApp"^] .
+
+

@@ -1,0 +1,17 @@
+= Options de mise à jour technologique
+:allow-uri-read: 
+
+
+
+
+=== Options de mise à jour technologique
+
+Si vous disposez d'actifs existants et souhaitez déterminer si une technologie doit être mise à jour, vous pouvez utiliser les options d'actualisation de la technologie d'efficacité économique BlueXP .  Vous pouvez soit consulter une brève évaluation de vos charges de travail actuelles et obtenir des recommandations, soit, si vous avez envoyé des journaux AutoSupport à NetApp au cours des 90 derniers jours, le service peut désormais fournir une simulation de charge de travail pour voir comment vos charges de travail fonctionnent sur du nouveau matériel.
+
+Vous pouvez également ajouter une charge de travail et exclure les charges de travail existantes de la simulation.
+
+Auparavant, vous pouviez uniquement évaluer vos actifs et déterminer si une mise à jour technologique était recommandée.
+
+La fonctionnalité fait désormais partie de l’option Actualisation technologique dans la navigation de gauche.
+
+En savoir plus sur le https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Évaluer une mise à jour technologique"] .

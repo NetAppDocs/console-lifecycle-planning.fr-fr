@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-remediate-overview.html 
+keywords: lifecycle planning remediate, lifecycle planning, capacity planning, economic efficiency,bluexp 
+summary: 'Planification du cycle de vie NetApp La planification de la capacité utilise l"IA pour prévoir la croissance des données afin de faciliter le processus de planification.' 
+---
+= Examiner et corriger les problèmes de capacité identifiés par la planification du cycle de vie
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+La planification de la capacité implique l’identification des zones de faible capacité dans votre environnement, à la fois actuelles et prévues.  La planification du cycle de vie utilise l’IA pour prévoir la croissance des données afin de faciliter le processus de planification.  La planification du cycle de vie identifie les zones à faible capacité dans votre environnement.
+
+En utilisant la planification du cycle de vie, vous pouvez atteindre ces objectifs :
+
+* link:../use/capacity-review-status.html["Examiner l'état de la capacité"]
+* link:../use/capacity-tier-data.html["Hiérarchisez les données froides vers le stockage cloud et libérez de l'espace de stockage"]
+* link:../use/capacity-reminders.html["Sélectionnez « Aucune action » et définissez des rappels pour vérifier à nouveau"]
+

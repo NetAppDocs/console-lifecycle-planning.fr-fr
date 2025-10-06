@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Commencer
+entries:
+- title: En savoir plus sur la planification du cycle de vie
+  url: "/get-started/intro.html"
+- title: Prérequis
+  url: "/get-started/prerequisites.html"
+- title: Démarrage rapide
+  url: "/get-started/quick-start.html"
+- title: Mettre en place la planification du cycle de vie
+  url: "/get-started/capacity-setup.html"
+- title: Planification du cycle de vie de l'accès
+  url: "/get-started/capacity-login.html"
+- title: FAQ
+  url: "/get-started/faq.html"

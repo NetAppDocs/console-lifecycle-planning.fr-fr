@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-review-status.html 
+keywords: lifecycle planning remediate, lifecycle planning, capacity planning, forecast, capacity, storage, economic efficiency 
+summary: 'Si vos clusters sont actuellement en dessous ou devraient être en dessous du seuil de 70 % de capacité, la planification du cycle de vie les identifie comme des ressources à faible capacité et vous alerte.' 
+---
+= Examiner l'état de la capacité dans la planification du cycle de vie
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Si les ressources de stockage de votre environnement sont actuellement inférieures ou devraient être inférieures au seuil de 90 % de capacité, la planification du cycle de vie les identifie comme des ressources à faible capacité et vous alerte.  De plus, la planification du cycle de vie fournit des recommandations sur la nécessité de hiérarchiser les données.
+
+Vous pouvez consulter les types de données suivants pour vous aider à résoudre le problème de capacité.
+
+* Plate-forme
+* Pays où l'actif est situé
+* Capacité actuelle et prévue par mois
+
+
+.Étapes
+. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. Dans la navigation de gauche, sélectionnez *Capacité*.
++
+image:capacity-page.png["Page de capacité affichant une liste de systèmes"]
+
+. Depuis la page Capacité, sélectionnez un système.
++
+image:capacity-evaluate-storage-capacity.png["Page de capacité dans la planification du cycle de vie"]
+
+. Sélectionnez *Évaluer les options de stockage* pour l'actif.
+. Choisissez l'une des options :
++
+** *Meilleures pratiques* : Continuez en cliquant sur le lien pour voir les meilleures pratiques.
+** *Données froides de niveau* : Continuer parlink:../use/capacity-tier-data.html["hiérarchisation des données froides vers le stockage cloud et libération de stockage"] .
+** *Aucune action requise* : Continuer parlink:../use/capacity-reminders.html["sélectionner aucune action et définir des rappels pour vérifier à nouveau"] .
+
+
+

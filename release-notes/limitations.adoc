@@ -1,0 +1,15 @@
+---
+sidebar: sidebar 
+permalink: release-notes/limitations.html 
+keywords: economic efficiency, bluexp, lifecycle planning, 
+summary: 'Les limitations connues identifient les plates-formes, les appareils ou les fonctions qui ne sont pas pris en charge par cette version du service ou qui n"interagissent pas correctement avec elle.' 
+---
+= Limites
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les limitations connues identifient les plates-formes, les appareils ou les fonctions qui ne sont pas pris en charge par cette version du service ou qui n'interagissent pas correctement avec elle.

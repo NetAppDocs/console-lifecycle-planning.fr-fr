@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-reminders.html 
+keywords: bluexp, lifecycle planning remediate, lifecycle planning, capacity planning, set reminders for capacity, economic efficiency, capacity, tier cold, cold data 
+summary: 'Plutôt que d"ajouter de la capacité ou de hiérarchiser les données froides, vous pouvez choisir de ne pas effectuer d"action pour le moment et définir des rappels pour vérifier à nouveau après 30, 60 ou 90 jours.' 
+---
+= Définir des rappels pour vérifier à nouveau dans la planification du cycle de vie
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Plutôt que d'ajouter de la capacité ou de hiérarchiser les données froides, dans la planification du cycle de vie, vous pouvez choisir de ne pas effectuer d'action à ce stade et définir des rappels pour vérifier à nouveau après 30, 60 ou 90 jours.
+
+.Étapes
+. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. Sélectionnez *Évaluer les options de stockage* pour l'actif.
+. Sélectionnez *Aucune action requise*.
+. Choisissez quand vous souhaitez être à nouveau averti d'un problème potentiel de faible capacité : 30, 60 ou 90 jours.
+. Sélectionnez *Enregistrer*.
+
+
+.Résultat
+Une fois ce délai écoulé, le risque réapparaît dans la liste des risques.

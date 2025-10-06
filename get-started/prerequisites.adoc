@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: get-started/prerequisites.html 
+keywords: what are NetApp lifecycle planning requirements, lifecycle planning prerequisites 
+summary: Commencez à planifier le cycle de vie de NetApp en vérifiant la prise en charge de votre environnement, l’accès au réseau, la connexion et le navigateur Web. 
+---
+= Prérequis de la planification du cycle de vie
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+Commencez la planification du cycle de vie en vérifiant l’état de préparation de votre environnement opérationnel, votre connexion et votre accès au réseau.  Pour utiliser la planification du cycle de vie, vous devez vous assurer que votre environnement répond à toutes les exigences.
+
+* Votre environnement doit répondre à toutes les exigences de la console NetApp , y compris une connexion et un accès réseau à partir d'un navigateur Web.
++
+Se référer à la https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de la console NetApp"^] et https://docs.netapp.com/us-en/bluexp-setup-admin/reference-networking-saas-console.html["Informations sur la mise en réseau de la console NetApp"^] .
+
+* Vous devez disposer des informations d’identification d’accès aux clusters.
+* Bien que cela ne soit pas obligatoire, il est utile que l'agent de la console NetApp soit en place et activé et que le système ONTAP soit découvert.  Dans le cas contraire, le service vous guide tout au long de ces processus.
+* Si vous envisagez de hiérarchiser les données froides vers le stockage cloud, assurez-vous que le cluster est éligible conformément à la licence.
+

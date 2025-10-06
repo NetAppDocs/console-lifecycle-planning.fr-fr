@@ -1,0 +1,198 @@
+---
+sidebar: sidebar 
+permalink: use/tech-refresh.html 
+keywords: lifecycle planning, tech refresh, technology update, hardware assessment 
+summary: 'Si vous disposez d"actifs existants et souhaitez procéder à une évaluation pour déterminer si une actualisation technologique est recommandée, vous pouvez utiliser l"option d"actualisation technologique de la planification du cycle de vie.  Le processus évalue vos charges de travail et vos ressources actuelles et vous fournit des recommandations sur la manière de procéder.  Ou vous pouvez essayer une simulation de charge de travail.' 
+---
+= Évaluer une actualisation technologique en utilisant la planification du cycle de vie
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Si vous disposez d'actifs existants et souhaitez déterminer si une actualisation technologique est recommandée, vous pouvez utiliser les options d'actualisation technologique de la planification du cycle de vie.  Vous pouvez soit consulter une brève évaluation de vos charges de travail actuelles et obtenir des recommandations, soit, si vous avez envoyé des journaux AutoSupport à NetApp au cours des 90 derniers jours, le service peut fournir une simulation de charge de travail pour voir comment vos charges de travail fonctionnent sur du nouveau matériel.
+
+* <<Passez une évaluation actualisée>>
+* <<Simuler des charges de travail sur du nouveau matériel>>
+
+
+Les systèmes sont considérés comme candidats à une mise à jour technologique en fonction des éléments suivants :
+
+* À l'approche de la fin du contrat de support technique
+* À l'approche de la fin du cycle de vie du matériel
+
+
+
+TIP: Vous pouvez accéder à cette fonctionnalité via la planification du cycle de vie ou via Digital Advisor.
+
+
+
+== Passez une évaluation actualisée
+
+L'évaluation comprend les étapes suivantes :
+
+* Sélectionnez les systèmes que vous souhaitez évaluer.
+* Spécifiez vos exigences concernant les environnements, les types de charges de travail, la capacité, les performances et le budget.
+* Consultez les recommandations concernant les produits et services cloud appropriés susceptibles d'améliorer les performances de votre environnement.
+
+
+.Étapes
+. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. Sélectionnez *Actualisation technique*.
++
+image:tech-refresh.png["Page de mise à jour technologique montrant les candidats à la mise à jour technologique"]
+
+. Consultez l’onglet *Candidats à l’actualisation technologique*, qui répertorie tous les systèmes qui pourraient bénéficier d’une actualisation technologique.
+. Sélectionnez le système sur lequel vous souhaitez obtenir une évaluation.
+. Dans la colonne Actions, sélectionnez *Évaluer l'actualisation*.
++
+image:tech-refresh-systems.png["Systèmes à inclure dans la mise à jour technologique"]
+
+. Sélectionnez le ou les systèmes sur lesquels vous souhaitez que l’évaluation soit effectuée et sélectionnez *Suivant*.
+. Définir les exigences :
++
+.. *Environnements* : sélectionnez les types d’environnement que vous souhaitez : cloud public, cloud hybride ou sur site.
++
+image:tech-refresh-requirements-environments4.png["Page des exigences de mise à jour technique montrant les choix d'environnement"]
+
+.. *Charges de travail* : sélectionnez tous les types de charges de travail que vous souhaitez gérer : applications critiques pour l’entreprise, analyses et calculs hautes performances, lacs de données et flux de travail multimédias, stockage secondaire ou charges de travail moins critiques.
++
+image:tech-refresh-requirements-workload-tiles.png["Choix de charge de travail"]
+
+.. *Capacité* : saisissez les exigences de capacité en Tio, faites glisser le curseur jusqu'à la valeur ou placez votre curseur sur la valeur dans le curseur et sélectionnez *Suivant*.
+.. *Performances* : sélectionnez les aspects de performances que vous souhaitez pouvoir gérer : latence la plus faible, IOPS les plus élevées, charges de travail mixtes ou performances non importantes et sélectionnez *Suivant*.
++
+image:tech-refresh-requirements-performance-tiles.png["Choix de performances"]
+
+.. *Budget* : saisissez un budget en dollars américains, faites glisser le curseur jusqu'à la valeur ou placez votre curseur sur la valeur dans le curseur et sélectionnez *Suivant*.
++
+Un ensemble de recommandations apparaît dans différents onglets pour les options que vous avez choisies.
+
+
+
+. Passez en revue les recommandations.
++
+image:tech-refresh-view-recommendations2.png["Afficher la page des recommandations d'évaluation actualisée"]
+
+. Effectuez l’une ou les deux actions suivantes :
++
+.. Pour télécharger un PDF des recommandations, sélectionnez *Télécharger*.
+.. Pour contacter un représentant commercial NetApp concernant les recommandations, sélectionnez *Contacter le service commercial*.  Une page Web affiche les options parmi lesquelles vous pouvez choisir pour contacter un représentant commercial NetApp .
+
+
+. Sélectionnez *Terminer*.
+
+
+
+
+== Consultez les évaluations de mise à jour technologique déjà effectuées
+
+Vous souhaiterez peut-être revoir les évaluations de mise à jour technologique que vous avez déjà effectuées et revoir à nouveau les recommandations.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Gouvernance* > *Planification du cycle de vie* > *Actualisation technologique*.
+. Sélectionnez l’onglet *Candidats à l’actualisation technologique*, qui répertorie tous les systèmes sur lesquels vous avez effectué une évaluation d’actualisation technologique.  Ensuite, dans le menu Actions de la ligne correspondant à ce système, sélectionnez pour afficher les évaluations et les recommandations pour ce système.
+. Dans la page Évaluer les options d’actualisation, sélectionnez *Afficher la recommandation*.
+. Consultez les recommandations d'actualisation.
++
+image:tech-refresh-view-recommendations2.png["Afficher la page des recommandations d'évaluation actualisée"]
+
+
+
+
+
+== Simuler des charges de travail sur du nouveau matériel
+
+Si vous avez envoyé des journaux AutoSupport à NetApp au cours des 90 derniers jours, NetApp est en mesure de fournir une simulation pour voir comment vos charges de travail fonctionnent sur du nouveau matériel.
+
+Vous pouvez inclure ou exclure des charges de travail spécifiques de la simulation.  Vous pouvez également ajouter des charges de travail si elles n'apparaissent pas dans la liste des charges de travail existantes.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Gouvernance* > *Planification du cycle de vie* > *Actualisation technologique*.
++
+image:tech-refresh-list2.png["Page de mise à jour technique montrant l'onglet des candidats à la mise à jour technique"]
+
+. Consultez l’onglet *Candidats à l’actualisation technologique*, qui répertorie tous les systèmes qui pourraient bénéficier d’une actualisation technologique.
+. Sélectionnez le système sur lequel vous souhaitez obtenir une évaluation.
+. Dans la colonne Actions, sélectionnez *Évaluer l'actualisation*.
++
+
+NOTE: La planification du cycle de vie importe les détails de la charge de travail en préparation de la simulation.
+
++
+image:tech-refresh-simulation-requirements3.png["Page de simulation des charges de travail affichant les options d'exigences"]
+
+. Dans la page Simuler les charges de travail > Exigences de charge de travail, procédez comme suit :
++
+.. Pour ajouter une charge de travail qui ne figure pas déjà dans la liste, sélectionnez *Ajouter une charge de travail*. Pour plus de détails, consultez la section <<Ajouter une charge de travail>> .
+.. *IOPS* : Vous pouvez également modifier les IOPS que vous souhaitez pour votre nouveau matériel.
+.. *Capacité (Tio)* : Vous pouvez également modifier la capacité souhaitée pour votre nouveau matériel.
+
+
+. Pour exclure des charges de travail, dans la colonne Actions, sélectionnez l'option *Exclure la charge de travail de la simulation*.
++
+
+TIP: Pour inclure les charges de travail précédemment exclues, sélectionnez l'onglet *Charges de travail exclues* et sélectionnez l'option *Inclure la charge de travail dans la simulation*. .. Sélectionnez *Suivant*.
+
+. Consultez les résultats simulés sur le nouveau matériel sur la page de configuration :
++
+image:tech-refresh-simulation-results2.png["Page de simulation des charges de travail affichant les résultats de la simulation"]
+
++
+
+TIP: Les meilleures recommandations sont indiquées par l'indication « Meilleure ».
+
+. Pour télécharger un PDF des recommandations, sélectionnez *Télécharger*.
+. Pour contacter un représentant commercial NetApp concernant les recommandations :
++
+.. Sélectionnez *Contact*.
+.. Entrez les coordonnées.
+.. Ajoutez des notes spéciales pour le représentant commercial NetApp .
+.. Sélectionnez *Confirmer et soumettre*.
+
+
+. Sélectionnez *Terminer*.
+
+
+.Résultat
+Les recommandations issues de la simulation de charge de travail sont envoyées à un représentant commercial NetApp .  Vous recevrez également un email confirmant les recommandations.  Un représentant commercial NetApp répondra à votre demande.
+
+
+
+== Ajouter une charge de travail
+
+Vous pouvez ajouter une charge de travail qui n’est pas déjà répertoriée à la simulation de charge de travail.
+
+.Étapes
+. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. Sélectionnez *Actualisation technique*.
++
+image:tech-refresh-list2.png["Page de mise à jour technique montrant l'onglet des candidats à la mise à jour technique"]
+
+. Sélectionnez le système.
+. Dans la colonne Actions, sélectionnez *Évaluer l'actualisation*.
++
+image:tech-refresh-simulation-requirements3.png["Page de simulation des charges de travail affichant les options d'exigences"]
+
+. Dans la page Simuler les charges de travail > Exigences de charge de travail, sélectionnez *Ajouter une charge de travail*.
++
+image:tech-refresh-workload-add2.png["Ajouter une page de charge de travail"]
+
+. Sélectionnez l’application, entrez un nom de charge de travail et sélectionnez une taille de charge de travail.
+. Saisissez les valeurs de capacité et de performance attendues de la charge de travail.
++
+
+NOTE: Si vous avez choisi une taille de charge de travail petite, typique ou intensive en E/S, les valeurs par défaut s'affichent.
+
+. Vous pouvez également sélectionner la flèche Options avancées et modifier les valeurs par défaut des informations suivantes :
++
+** *Efficacité de stockage* : Un rapport de réduction des données typique pourrait être de 2 pour 1.
+** * Lectures aléatoires % * : une taille d'E/S moyenne typique pour une lecture aléatoire est de 16 Ko.
+** *% de lectures séquentielles* : un modèle de lecture typique est à 50 % aléatoire et à 50 % séquentiel.
+** *Écritures aléatoires %* : une taille d'E/S moyenne typique pour une écriture aléatoire est de 32 Ko.
+** *Écritures séquentielles %* : Un modèle d'écriture typique est à 50 % aléatoire et à 50 % séquentiel.
+
+
+

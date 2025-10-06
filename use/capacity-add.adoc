@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-add.html 
+keywords: economic efficiency remediate, lifecycle planning, capacity planning, add capacity 
+summary: La planification du cycle de vie fournit des recommandations pour les systèmes AFF en fonction de la croissance prévue des données.  Vous pouvez accepter les prévisions ou saisir vos propres prévisions.  Sur cette base, la planification du cycle de vie présente des recommandations qui satisfont aux projections de croissance de capacité et sont les plus optimales pour la configuration des actifs. 
+---
+= Augmenter la capacité
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+La planification du cycle de vie fournit des recommandations pour les systèmes AFF en fonction de la croissance prévue des données.  Vous pouvez accepter les prévisions ou saisir vos propres prévisions.  Sur cette base, la planification du cycle de vie présente des recommandations qui satisfont aux projections de croissance de capacité et sont les plus optimales pour la configuration des actifs.
+
+L’une des recommandations pourrait être d’ajouter de la capacité en ajoutant des étagères à votre numéro de série existant.
+
+Vous pouvez facilement soumettre la recommandation sous forme de demande de devis ou de demande d’options alternatives à l’équipe commerciale NetApp .
+
+.Étapes
+. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. Sélectionnez *Planification des capacités*.
+. Sélectionnez *Évaluer les options de stockage* pour l'actif.
+. Sélectionnez *Ajouter de la capacité*.
++
+Les données de l'actif apparaissent.
+
++
+** Passez en revue les prévisions, l’utilisation, la tendance de latence et la tendance IOPS.
+** Pour obtenir des recommandations, sélectionnez *Évaluer les options de stockage*.
++
+La page Définir les besoins en capacité affiche une prévision de capacité actuelle et projetée ainsi que le stockage supplémentaire recommandé en fonction de la croissance projetée.
+
+
+
+. Sélectionnez l'une des options à droite :
++
+** *Recommander un stockage supplémentaire en fonction de la croissance prévue* et ajouter éventuellement un pourcentage de tampon.
+** *Recommandez un stockage supplémentaire en fonction de la croissance des données personnalisées* et saisissez la capacité supplémentaire totale souhaitée, et non celle recommandée.
+
+
+. Sélectionnez *Continuer*.
++
+Un ensemble de recommandations apparaît.
+
+. Consultez la recommandation pour les numéros de série d’actifs que vous avez sélectionnés.
+. Effectuez l’une des opérations suivantes :
++
+** Pour accepter la recommandation, sélectionnez *Suivant*.  La demande est envoyée à un expert commercial NetApp qui travaillera avec vous pour vous obtenir la capacité supplémentaire dont vous avez besoin.
+** Pour demander des options différentes, sélectionnez *Demander des options alternatives*, saisissez votre demande et sélectionnez *Envoyer un e-mail*.  Un e-mail est transmis à un expert commercial NetApp qui vous contactera pour répondre aux besoins en capacité.
+
+
+. Examinez la demande de capacité supplémentaire et sélectionnez *Confirmer et soumettre*.
++
+La page État de la planification de la capacité s’affiche.
+
+. Consultez l’état sur la page État de la planification de la capacité.
+

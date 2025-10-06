@@ -1,0 +1,13 @@
+= Fonctionnalités désactivées
+:allow-uri-read: 
+
+
+
+
+=== Fonctionnalités désactivées
+
+Certaines fonctionnalités BlueXP economic efficiency ont été temporairement désactivées :
+
+* Actualisation technologique
+* Augmenter la capacité
+
