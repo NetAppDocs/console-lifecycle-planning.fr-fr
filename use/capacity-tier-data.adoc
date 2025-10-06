@@ -24,12 +24,12 @@ Le processus de hiérarchisation du cloud comprend les processus suivants :
 
 
 .Étapes
-. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. link:../get-started/capacity-login.html["Connectez-vous à la NetApp Console"] .
 . Sélectionnez *Évaluer les options de stockage* pour l'actif.
 . Sélectionnez *Tier Cold Data*.
 . Les étapes suivantes dépendent du fait que vous ayez déjà déployé l'agent de console et découvert le cluster :
 +
-** Si vous devez déployer l'agent de console, reportez-vous à la documentation de la console NetApp qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Comment créer l'agent de console"^] .  Sinon, si vous avez déjà déployé l’agent de console, l’option de déploiement de l’agent n’apparaît pas.
+** Si vous devez déployer l'agent de console, reportez-vous à la documentation de la NetApp Console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Comment créer l'agent de console"^] .  Sinon, si vous avez déjà déployé l’agent de console, l’option de déploiement de l’agent n’apparaît pas.
 ** Si le service doit découvrir le cluster, reportez-vous à https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez les clusters ONTAP sur site"^] .  Sinon, si le cluster a déjà été découvert, l’option permettant de découvrir le cluster n’apparaît pas.
 +
 La planification du cycle de vie initie la connexion à NetApp Cloud Tiering, un autre produit.
@@ -47,6 +47,6 @@ Après le déploiement de l'agent de console, NetApp Cloud Tiering découvre le 
 
 . Une fois le cluster découvert, configurez la hiérarchisation.
 +
-Pour plus de détails sur la hiérarchisation, reportez-vous à https://docs.netapp.com/us-en/bluexp-tiering/index.html["Documentation sur la hiérarchisation du cloud NetApp"^] .
+Pour plus de détails sur la hiérarchisation, reportez-vous à https://docs.netapp.com/us-en/bluexp-tiering/index.html["Documentation sur la NetApp Cloud Tiering"^] .
 
 

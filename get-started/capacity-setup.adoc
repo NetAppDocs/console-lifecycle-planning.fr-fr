@@ -15,7 +15,7 @@ summary: Pour utiliser la planification du cycle de vie, effectuez quelques éta
 Pour utiliser la planification du cycle de vie, effectuez quelques étapes pour la configurer.
 
 * Revoirlink:../get-started/prerequisites.html["prérequis"] pour vous assurer que votre système est prêt.
-* Créez un agent de console dans la console NetApp .
+* Créez un agent de console dans la NetApp Console.
 * Découvrez le cluster dans la Console.
 
 
@@ -25,15 +25,15 @@ De même, vous pouvez découvrir le cluster à l’avance à l’aide de la cons
 
 
 
-== Créer un agent de console dans la console NetApp
+== Créer un agent de console dans la NetApp Console
 
-Un agent de console NetApp inclut les informations d’identification des machines NetApp ONTAP .
+Un agent de NetApp Console inclut les informations d’identification des machines NetApp ONTAP .
 
-Pour créer un agent de console dans la console avant d'utiliser le service, reportez-vous à la documentation de la console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["comment créer un agent de console NetApp"^] .
+Pour créer un agent de console dans la console avant d'utiliser le service, reportez-vous à la documentation de la console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["comment créer un agent de NetApp Console"^] .
 
 
 
-== Découvrez le cluster dans la console NetApp
+== Découvrez le cluster dans la NetApp Console
 
 Une partie de la configuration consiste à identifier le nom du cluster, l’adresse IP, le nom d’utilisateur et le mot de passe dans la console.
 

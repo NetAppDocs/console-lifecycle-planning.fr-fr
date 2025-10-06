@@ -19,7 +19,7 @@ L’une des recommandations pourrait être d’ajouter de la capacité en ajouta
 Vous pouvez facilement soumettre la recommandation sous forme de demande de devis ou de demande d’options alternatives à l’équipe commerciale NetApp .
 
 .Étapes
-. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. link:../get-started/capacity-login.html["Connectez-vous à la NetApp Console"] .
 . Sélectionnez *Planification des capacités*.
 . Sélectionnez *Évaluer les options de stockage* pour l'actif.
 . Sélectionnez *Ajouter de la capacité*.

@@ -39,7 +39,7 @@ L'évaluation comprend les étapes suivantes :
 
 
 .Étapes
-. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. link:../get-started/capacity-login.html["Connectez-vous à la NetApp Console"] .
 . Sélectionnez *Actualisation technique*.
 +
 image:tech-refresh.png["Page de mise à jour technologique montrant les candidats à la mise à jour technologique"]
@@ -92,7 +92,7 @@ image:tech-refresh-view-recommendations2.png["Afficher la page des recommandatio
 Vous souhaiterez peut-être revoir les évaluations de mise à jour technologique que vous avez déjà effectuées et revoir à nouveau les recommandations.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Gouvernance* > *Planification du cycle de vie* > *Actualisation technologique*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Gouvernance* > *Planification du cycle de vie* > *Actualisation technologique*.
 . Sélectionnez l’onglet *Candidats à l’actualisation technologique*, qui répertorie tous les systèmes sur lesquels vous avez effectué une évaluation d’actualisation technologique.  Ensuite, dans le menu Actions de la ligne correspondant à ce système, sélectionnez pour afficher les évaluations et les recommandations pour ce système.
 . Dans la page Évaluer les options d’actualisation, sélectionnez *Afficher la recommandation*.
 . Consultez les recommandations d'actualisation.
@@ -110,7 +110,7 @@ Si vous avez envoyé des journaux AutoSupport à NetApp au cours des 90 derniers
 Vous pouvez inclure ou exclure des charges de travail spécifiques de la simulation.  Vous pouvez également ajouter des charges de travail si elles n'apparaissent pas dans la liste des charges de travail existantes.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Gouvernance* > *Planification du cycle de vie* > *Actualisation technologique*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Gouvernance* > *Planification du cycle de vie* > *Actualisation technologique*.
 +
 image:tech-refresh-list2.png["Page de mise à jour technique montrant l'onglet des candidats à la mise à jour technique"]
 
@@ -166,7 +166,7 @@ Les recommandations issues de la simulation de charge de travail sont envoyées 
 Vous pouvez ajouter une charge de travail qui n’est pas déjà répertoriée à la simulation de charge de travail.
 
 .Étapes
-. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. link:../get-started/capacity-login.html["Connectez-vous à la NetApp Console"] .
 . Sélectionnez *Actualisation technique*.
 +
 image:tech-refresh-list2.png["Page de mise à jour technique montrant l'onglet des candidats à la mise à jour technique"]
@@ -189,7 +189,7 @@ NOTE: Si vous avez choisi une taille de charge de travail petite, typique ou int
 . Vous pouvez également sélectionner la flèche Options avancées et modifier les valeurs par défaut des informations suivantes :
 +
 ** *Efficacité de stockage* : Un rapport de réduction des données typique pourrait être de 2 pour 1.
-** * Lectures aléatoires % * : une taille d'E/S moyenne typique pour une lecture aléatoire est de 16 Ko.
+** *Lectures aléatoires %* : une taille d'E/S moyenne typique pour une lecture aléatoire est de 16 Ko.
 ** *% de lectures séquentielles* : un modèle de lecture typique est à 50 % aléatoire et à 50 % séquentiel.
 ** *Écritures aléatoires %* : une taille d'E/S moyenne typique pour une écriture aléatoire est de 32 Ko.
 ** *Écritures séquentielles %* : Un modèle d'écriture typique est à 50 % aléatoire et à 50 % séquentiel.

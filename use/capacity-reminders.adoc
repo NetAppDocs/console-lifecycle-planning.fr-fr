@@ -15,7 +15,7 @@ summary: 'Plutôt que d"ajouter de la capacité ou de hiérarchiser les données
 Plutôt que d'ajouter de la capacité ou de hiérarchiser les données froides, dans la planification du cycle de vie, vous pouvez choisir de ne pas effectuer d'action à ce stade et définir des rappels pour vérifier à nouveau après 30, 60 ou 90 jours.
 
 .Étapes
-. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. link:../get-started/capacity-login.html["Connectez-vous à la NetApp Console"] .
 . Sélectionnez *Évaluer les options de stockage* pour l'actif.
 . Sélectionnez *Aucune action requise*.
 . Choisissez quand vous souhaitez être à nouveau averti d'un problème potentiel de faible capacité : 30, 60 ou 90 jours.

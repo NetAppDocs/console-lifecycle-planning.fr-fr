@@ -22,7 +22,7 @@ Vous pouvez consulter les types de données suivants pour vous aider à résoudr
 
 
 .Étapes
-. link:../get-started/capacity-login.html["Connectez-vous à la console NetApp"] .
+. link:../get-started/capacity-login.html["Connectez-vous à la NetApp Console"] .
 . Dans la navigation de gauche, sélectionnez *Capacité*.
 +
 image:capacity-page.png["Page de capacité affichant une liste de systèmes"]
